@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- example file containing base tags -->
+
+<game>	
+	<title>MyMyGames</title>
+	<founding-date>April 1, 2011</founding-date>
+	<website>http://www.mymygames.com/</website>
+	<based-in>Bar, Montenegro</based-in>
+	
+	<press-contact>dev@mymygames.com</press-contact>
+
+	<socials>
+		<social>
+			<name>twitter.com/MyMyGames</name>
+			<link>twitter.com/MyMyGames</link>
+		</social>
+		<social>
+			<name>facebook.com/MyMyGames</name>
+			<link>facebook.com/MyMyGames</link>
+		</social>
+	</socials>
+
+	<description><![CDATA[ <img id="icon" src="http://mymygames.com/icon.png" width="100"
+    height="100" /> <br/>
+We are happy to introduce our great and glorious new game.<br/>Exceptional gem of a game "My Parking".    
+<br/><br/><br/><br/>
+Parking game with beautiful graphics and physical engine <br/>
+ <br/>
+- 94 levels <br/>
+- Player car damages <br/>
+- Traffic cars <br/>
+- Game Power Ups <br/>
+- 2 languages <br/>	<br/>
+
+	]]>	
+	</description>
+		
+	<histories>
+		<history>
+			<header>Early history</header>
+			<text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel nisi dolor. Pellentesque vitae eros velit, quis venenatis orci. Phasellus elit urna, semper ut gravida et, porta non dui. Aliquam erat volutpat. Aenean porta volutpat imperdiet. Maecenas venenatis, tellus eget vehicula vulputate, augue erat elementum quam, tincidunt laoreet magna orci et mauris. Proin porttitor pharetra nisi, accumsan sollicitudin neque varius a. Aenean ut massa ipsum, id hendrerit lacus. Maecenas posuere egestas nunc at cursus. Etiam mollis libero vel eros pulvinar aliquam. Sed vitae turpis sed nibh venenatis dictum. Sed suscipit orci justo, at sagittis ante. Sed leo nisl, ultricies in fermentum id, aliquam id dolor. Ut laoreet, felis id posuere bibendum, arcu ipsum lacinia est, eu lobortis velit enim eget mi. In ullamcorper ullamcorper enim ut gravida. Vivamus rutrum lacus mollis risus malesuada iaculis.</text>
+		</history>
+	</histories>
+		
+	<trailers>
+		<trailer>
+			<name>My Parking Gameplay</name>
+			<youtube>9LoHf5kGOSw</youtube>
+		</trailer>
+	</trailers>
+	
+	<press-can-request-copy>TRUE</press-can-request-copy> <!-- can be true or false -->
+	<monetization-permission>monetize</monetization-permission> <!-- can be: 	false (no video allowed),
+																			 	ask (permission on case-per-case basis),
+																			 	non-commercial (no monetization allowed),
+																			 	monetize (full permission) -->	
+	
+	<credits>
+		<credit>
+			<person>Mikhail Spitsyn</person>
+			<role>Developer, GameDesign, Artist</role>
+		</credit>
+		<credit>
+			<person>Ilya Shorin</person>
+			<role>Level Design, QA</role>
+		</credit>
+		<credit>
+			<person>Nadezhda Gutnova</person>
+			<role>Artist</role>
+		</credit>
+		<credit>
+			<person>Valery Lehnitsky</person>
+			<role>Betatester</role>
+		</credit>
+	</credits>
+	
+	<contacts>
+		<contact>
+			<name>For Sponsors</name>
+			<mail>dev@mymygames.com</mail>
+		</contact>
+		<contact>
+			<name>Twitter</name>
+			<link>http://twitter.com/MyMyGames</link>
+		</contact>
+		<contact>
+			<name>Facebook</name>
+			<link>http://facebook.com/MyMyGames</link>
+		</contact>
+		<contact>
+			<name>Web</name>
+			<link>www.MyMyGames.com</link>
+		</contact>
+	</contacts>
+</game>

@@ -1,0 +1,24 @@
+# Запрет выдачи листинга пустого каталога
+Options -Indexes
+
+DirectoryIndex  index.html index.php 
+
+RewriteCond %{HTTP_HOST} ^mymygames\.net$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.mymygames\.net$
+RewriteRule ^/?$ "https\:\/\/mymygames\.com\/" [R=301,L]
+
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+
+#RewriteCond %{HTTP_HOST} ^mymygames\.com$ [OR]
+#RewriteCond %{HTTP_HOST} ^www\.mymygames\.com$
+#RewriteRule ^/?$ "https\:\/\/mymygames\.com" [R=301,L]
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# РЎРґРµР»Р°Р№С‚Рµ РїР°РєРµС‚ В«ea-php72В» СЏР·С‹РєРѕРј РїСЂРѕРіСЂР°РјРјРёСЂРѕРІР°РЅРёСЏ В«PHPВ» РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php72 .php .php7 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit
